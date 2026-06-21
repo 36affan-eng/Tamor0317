@@ -24,12 +24,43 @@
   <button>Find Stations</button>
 </section>
 
-<section class="cards">
-  <div class="card">Fuel Prices</div>
-  <div class="card">Locate Station</div>
-  <div class="card">Services</div>
-</section>
+<section class="fuel-section">
+  <h2>Fuel Prices (Live API Style)</h2>
 
+  <table class="fuel-table">
+    <thead>
+      <tr>
+        <th>Fuel Type</th>
+        <th>Price (PKR)</th>
+        <th>Status</th>
+        <th>Last Updated</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Petrol</td>
+        <td>278.00</td>
+        <td class="up">▲ Increased</td>
+        <td>Today</td>
+      </tr>
+
+      <tr>
+        <td>Diesel</td>
+        <td>285.50</td>
+        <td class="down">▼ Decreased</td>
+        <td>Today</td>
+      </tr>
+
+      <tr>
+        <td>High Octane</td>
+        <td>315.00</td>
+        <td class="stable">● Stable</td>
+        <td>Today</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
 <footer>
   <p>© 2026 PSO Clone Website</p>
 </footer>
