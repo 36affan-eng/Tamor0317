@@ -60,13 +60,7 @@ nav a {
   text-align: center;
 }
 
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #0033a0;
-  color: white;
-}
+
 /* FUEL SECTION */
 .fuel-section {
   padding: 50px 20px;
@@ -121,4 +115,11 @@ footer {
 .fuel-table tr:hover {
   background: #f1f7ff;
   transition: 0.3s;
+}
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0033a0;
+  color: white;
 }
