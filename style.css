@@ -1,55 +1,69 @@
-/* FUEL SECTION */
-.fuel-section {
-  padding: 50px 20px;
-  background: #f9f9f9;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0033a0;
+  padding: 15px 30px;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f2f2f2;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: #0033a0;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: #0033a0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  width: 150px;
   text-align: center;
 }
 
-.fuel-section h2 {
-  color: #0033a0;
-  margin-bottom: 20px;
-}
-
-/* TABLE STYLE (API LOOK) */
-.fuel-table {
-  width: 80%;
-  margin: auto;
-  border-collapse: collapse;
-  background: white;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.fuel-table th {
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
   background: #0033a0;
   color: white;
-  padding: 15px;
-}
-
-.fuel-table td {
-  padding: 15px;
-  border-bottom: 1px solid #eee;
-}
-
-/* STATUS COLORS */
-.up {
-  color: green;
-  font-weight: bold;
-}
-
-.down {
-  color: red;
-  font-weight: bold;
-}
-
-.stable {
-  color: orange;
-  font-weight: bold;
-}
-
-/* HOVER EFFECT LIKE DASHBOARD */
-.fuel-table tr:hover {
-  background: #f1f7ff;
-  transition: 0.3s;
 }
